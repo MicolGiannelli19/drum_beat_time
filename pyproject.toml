@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vicky-audio"
+version = "0.1.0"
+description = ""
+authors = ["MicolGiannelli19 <micol.giannelli@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+librosa = "^0.10.1"
+matplotlib = "^3.8.4"
+jupyter = "^1.0.0"
+pandas = "^2.2.2"
+aubio = "^0.4.9"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
